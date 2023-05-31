@@ -1,0 +1,250 @@
+/* HEADER */
+.barra-superior {
+    background-color: #222222;
+    color: #f3f3f3;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    justify-content: space-around;
+    padding: 5px;
+
+    .menu-regional {
+        display: flex;
+        column-gap: 15px;
+    }
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+.barra-menuPrincipal {
+    align-items: center;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 45px 15px 45px;
+
+}
+
+nav {
+    column-gap: 25px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/* BODY */
+
+.slider {
+    background-image: url('/imagenes/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-color: rgb(165, 220, 186);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    height: 370px;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-end;
+    justify-content: center;
+    
+
+}
+
+h2, h3 {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size:x-large;
+    font-weight: 700;
+    padding: 15px;
+}
+
+h3 {
+    font-size: large;
+    padding-right: 45px;
+}
+
+.boton-slider {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border: 1px solid #F0A83E;
+    color: #FFFFFF;
+    font-family: 'Robot', sans-serif;
+    margin-right: 85px;
+    padding: 20px;
+
+}
+
+.productos-destacados {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Robot', sans-serif;
+    padding: 30px;
+}
+
+ul {
+    column-gap: 10px;
+    color: #666666;
+    display: flex;
+    font-family: 'Robot', sans-serif;
+    font-size: small;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articulos-inicio {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-suscripcion {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 30px;
+
+    .texto-footer {
+        align-items: center;
+        column-gap: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Robot', sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+
+form {
+    align-items: center;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.titulo-formulario {
+    color: #3C2313;
+    font-family: 'Robot', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.input-form {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 24px;
+    height: 50px;
+    padding: 5px 15px 5px 15px;
+    width: 400px;
+    ::placeholder { color: white}
+}
+.input-form::placeholder { color: white}
+
+.boton-resetear {
+    background-color: #8A8787;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Robot', sans-serif;
+    font-size: large;
+    height: 45px;
+    padding: 10px;
+    width: 140px;
+}
+
+.boton-enviar {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Robot', sans-serif;
+    font-size: large;
+    height: 45px;
+    padding: 10px;
+    width: 140px;
+}
+
+.img-correo {
+    width: 50px;
+    height: auto;
+}
+
+.input-suscribete {
+    border: none;
+    border-radius: 18px;
+    color: #A0A0A0;
+    padding: 18px 10px 18px 10px;
+    width: 300px;
+}
+.input-suscribete::placeholder { color: #A0A0A0}
+
+.boton-suscribete {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-family: 'Robot', sans-serif;
+    font-size: smaller;
+    padding: 15px 15px 15px 15px;
+}
+
+.contenido-footer {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px 15px 80px;
+    font-family: 'Robot', sans-serif;
+}
+
+.localidad, .telefono, .correo {
+    align-items: center;
+    color: #FFFFFF;
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+} 
+
+.titulos-footer {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.detalle-titulos {
+    color: #8A8787;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.section-logo-footer {
+    align-self: center;
+}
+
+.derechos-reservados {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: 'Robot', sans-serif;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
+}
+
+
